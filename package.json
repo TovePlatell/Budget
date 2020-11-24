@@ -1,0 +1,23 @@
+{
+  "name": "Inlamning2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "budget.js",
+  "scripts": {
+   "start": "node-sass sass/main.scss style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TovePlatell/Inlamning2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TovePlatell/Inlamning2/issues"
+  },
+  "homepage": "https://github.com/TovePlatell/Inlamning2#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <meta charset="utf-8">
+    
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <title>Budget calculator</title>
-    <link href="budget.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
     <script src="budget.js" defer></script>
 
 </head>
@@ -40,20 +40,24 @@
     </div>
 </div>
 
- <div class="budget-container">
 
+ <div class="budget-container">
+ <!--incomelist-->
     <div class="income-container">
     <h3>Income</h3>
-    <div id="income" style="color:blue"></div>
+    <div id="income"></div>
+    <ul class="incomeList"></ul>
     </div>
-
+<!--expenselist-->
 <div class="expense-container">
     <h3>Expense</h3>
-    <div id="expense" style="color:red"></div>
-</div>
+    <div id="expense"></div>
+    <ul class="expenseList"></ul>
 
+</div>
+<!--totabudgetlist-->
  <div class="totalbudget-container">
-    <h3> Total budget</h3>
+    <h3> Total budget</h3> 
     <div id="totalBudget"></div>
 </div>
 
